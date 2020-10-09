@@ -85,6 +85,7 @@
                             <field name="pricelist_id" groups="product.group_product_pricelist" context="{'product_id':product_id}" attrs="{'invisible':[('invoice_method','=', 'none')]}"/>
                             <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
                             <field name="currency_id" invisible="1"/>
+                            <field name="x_delivery_date"/>
                         </group>
                     </group>
                 <notebook>
